@@ -15,7 +15,7 @@ ask_button = st.button(label="Ask")
 
 #-----------------loading Groq API--------------------------
 load_dotenv()
-groq_api_key = os.getenv("groq_api_key")
+groq_api_key=os.getenv("groq_api_key")
 
 #-----------------Implement Groq--------------------------
 client = Groq(api_key=groq_api_key)
